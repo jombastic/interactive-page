@@ -1,12 +1,12 @@
-#stuff-things, #lori, #carl, #family-photo {
+#stuff-things, #lori, #carl, #family-photo{
   display: none;
 }
 
-.clickable {
+span[id^="clickable"] {
   color: blue;
   cursor: pointer;
 }
 
-.clickable:hover {
+span[id^="clickable"]:hover {
   text-decoration: underline;
 }
